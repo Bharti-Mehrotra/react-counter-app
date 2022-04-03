@@ -3,7 +3,6 @@ import React from "react";
 //stateless functional components
 const NavBar = (props) => {
   const { counterCount } = props;
-  console.log("NavBar - Rendered");
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
